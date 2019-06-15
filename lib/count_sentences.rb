@@ -20,7 +20,7 @@ class String
     questions = self.question?
     
     exclamations = self.exclamation?
-    binding.pry
+    #binding.pry
     all_sentences = sentences + questions + exclamations
     binding.pry
   end
