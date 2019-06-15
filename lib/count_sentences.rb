@@ -21,7 +21,7 @@ class String
     
     exclamations = self.exclamation?
     #binding.pry
-    all_sentences = sentences + questions + exclamations
+    sentences + questions + exclamations
     binding.pry
   end
   
