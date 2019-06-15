@@ -19,6 +19,7 @@ class String
     questions = self.question?
     exclamations = self.exclamation?
     all_sentences = sentences + questions + exclamations
+    binding.pry
   end
   
 end
