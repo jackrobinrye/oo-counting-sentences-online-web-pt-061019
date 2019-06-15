@@ -15,8 +15,8 @@ class String
   end
 
   def count_sentences
-    binding.pry
     sentences = self.sentence?
+    binding.pry
     questions = self.question?
     exclamations = self.exclamation?
     all_sentences = sentences + questions + exclamations
